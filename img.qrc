@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/dashboard-square-02-Stroke-Rounded (1).png</file>
+        <file>images/dashboard-square-02-Stroke-Rounded.png</file>
+        <file>images/folder-view-Stroke-Rounded.png</file>
+        <file>images/invoice-02-Stroke-Rounded.png</file>
+        <file>images/invoice-Stroke-Rounded.png</file>
+        <file>images/search-01-Stroke-Rounded.png</file>
+        <file>images/user-circle-02-Stroke-Rounded.png</file>
+        <file>images/package-Stroke-Rounded.png</file>
+        <file>images/folder-view-Stroke-Rounded (1).png</file>
+        <file>images/package-Stroke-Rounded (1).png</file>
+        <file>images/invoice-03-Stroke-Rounded.png</file>
+        <file>images/user-circle-Stroke-Rounded.png</file>
+        <file>images/shopping-cart-02-Stroke-Rounded (1).png</file>
+        <file>images/invoice-02-Stroke-Rounded (1).png</file>
+        <file>images/shopping-cart-02-Stroke-Rounded.png</file>
+        <file>images/time-quarter-02-Stroke-Rounded.png</file>
+    </qresource>
+</RCC>
