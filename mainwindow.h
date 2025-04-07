@@ -1,7 +1,11 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-
 #include <QMainWindow>
+#include<QtCharts>
+#include<QChartView>
+#include<QLineSeries>
+#include<QPieSeries>
+#include<QPieSlice>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
