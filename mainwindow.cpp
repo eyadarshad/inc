@@ -30,7 +30,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Updated buttons with "C" as the first one
     QStringList buttons = {
-        "C", "7", "8", "9",
+        "7", "8", "9", "C",
         "4", "5", "6", "*",
         "1", "2", "3", "-",
         "0", ".", "=", "+"
@@ -257,6 +257,117 @@ MainWindow::MainWindow(QWidget *parent)
     });
     connect(ui->page77, &QPushButton::clicked, this, [=]() {
         ui->stackedWidget->setCurrentIndex(7);
+    });
+    connect(ui->pagew1, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(8);
+    });
+    connect(ui->pagew2, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(9);
+    });
+
+    // Connect Page 2 button to go back to Page 1
+    connect(ui->pagew3, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(10);
+    });
+    connect(ui->pagew4, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(11);
+    });
+    connect(ui->pagew21, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(8);
+    });
+    connect(ui->pagew22, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(9);
+    });
+
+    // Connect Page 2 button to go back to Page 1
+    connect(ui->pagew23, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(10);
+    });
+    connect(ui->pagew24, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(11);
+    });
+    connect(ui->pagew31, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(8);
+    });
+    connect(ui->pagew32, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(9);
+    });
+
+    // Connect Page 2 button to go back to Page 1
+    connect(ui->pagew33, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(10);
+    });
+    connect(ui->pagew34, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(11);
+    });
+    connect(ui->pages1, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(8);
+    });
+    connect(ui->pages2, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(9);
+    });
+
+    // Connect Page 2 button to go back to Page 1
+    connect(ui->pages3, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(10);
+    });
+    connect(ui->pages4, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(11);
+    });
+    connect(ui->btnlogout, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(0);
+    });
+    connect(ui->btnlogout_2, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(0);
+    });
+
+    // Connect Page 2 button to go back to Page 1
+    connect(ui->btnlogout_3, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(0);
+    });
+    connect(ui->btnlogout_4, &QPushButton::clicked, this, [=]() {
+        ui->stackedWidget->setCurrentIndex(0);
+        connect(ui->btnlogout_5, &QPushButton::clicked, this, [=]() {
+            ui->stackedWidget->setCurrentIndex(0);
+        });
+        connect(ui->btnlogout_6, &QPushButton::clicked, this, [=]() {
+            ui->stackedWidget->setCurrentIndex(0);
+        });
+
+        // Connect Page 2 button to go back to Page 1
+        connect(ui->btnlogout_7, &QPushButton::clicked, this, [=]() {
+            ui->stackedWidget->setCurrentIndex(0);
+        });
+        connect(ui->btnlogout_8, &QPushButton::clicked, this, [=]() {
+            ui->stackedWidget->setCurrentIndex(0);
+        });
+        connect(ui->btnlogout_9, &QPushButton::clicked, this, [=]() {
+            ui->stackedWidget->setCurrentIndex(0);
+        });
+        connect(ui->btnlogout_10, &QPushButton::clicked, this, [=]() {
+            ui->stackedWidget->setCurrentIndex(0);
+        });
+
+        // Connect Page 2 button to go back to Page 1
+        connect(ui->btnlogout_11, &QPushButton::clicked, this, [=]() {
+            ui->stackedWidget->setCurrentIndex(0);
+        });
+        connect(ui->btnlogout_12, &QPushButton::clicked, this, [=]() {
+            ui->stackedWidget->setCurrentIndex(0);
+        });
+        connect(ui->cross, &QPushButton::clicked, this, [=]() {
+            ui->stackedWidget->setCurrentIndex(7);
+        });
+        connect(ui->cross_2, &QPushButton::clicked, this, [=]() {
+            ui->stackedWidget->setCurrentIndex(3);
+        });
+
+        connect(ui->addprod, &QPushButton::clicked, this, [=]() {
+            ui->stackedWidget->setCurrentIndex(13);
+        });
+        connect(ui->addworker111, &QPushButton::clicked, this, [=]() {
+            ui->stackedWidget->setCurrentIndex(12);
+        });
     });
 
 }
